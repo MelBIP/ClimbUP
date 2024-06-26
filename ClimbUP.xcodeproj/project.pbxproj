@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B3F296A2C08789E000A4315 /* ClimbUPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F29692C08789E000A4315 /* ClimbUPApp.swift */; };
+		9B3F296C2C08789E000A4315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F296B2C08789E000A4315 /* ContentView.swift */; };
+		9B3F296E2C0878A2000A4315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F296D2C0878A2000A4315 /* Assets.xcassets */; };
+		9B3F29712C0878A2000A4315 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F29702C0878A2000A4315 /* Preview Assets.xcassets */; };
+		9B3F297B2C0878A2000A4315 /* ClimbUPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F297A2C0878A2000A4315 /* ClimbUPTests.swift */; };
+		9B3F29852C0878A2000A4315 /* ClimbUPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F29842C0878A2000A4315 /* ClimbUPUITests.swift */; };
+		9B3F29872C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F29862C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift */; };
+		9BFF84482C1A6B730083BDE1 /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF84472C1A6B730083BDE1 /* UIKitView.swift */; };
+		9BFF844B2C1A6B970083BDE1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9BFF844A2C1A6B970083BDE1 /* SnapKit */; };
+		9BFF844E2C1A6BA40083BDE1 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 9BFF844D2C1A6BA40083BDE1 /* Then */; };
+		9BFF84562C1AC0C00083BDE1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF84552C1AC0C00083BDE1 /* SplashView.swift */; };
+		9BFF84642C2B06F80083BDE1 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9BFF84632C2B06F80083BDE1 /* MessageKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B3F29772C0878A2000A4315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3F295E2C08789E000A4315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3F29652C08789E000A4315;
+			remoteInfo = ClimbUP;
+		};
+		9B3F29812C0878A2000A4315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3F295E2C08789E000A4315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3F29652C08789E000A4315;
+			remoteInfo = ClimbUP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B3F29662C08789E000A4315 /* ClimbUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3F29692C08789E000A4315 /* ClimbUPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbUPApp.swift; sourceTree = "<group>"; };
+		9B3F296B2C08789E000A4315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B3F296D2C0878A2000A4315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B3F29702C0878A2000A4315 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B3F29762C0878A2000A4315 /* ClimbUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimbUPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3F297A2C0878A2000A4315 /* ClimbUPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbUPTests.swift; sourceTree = "<group>"; };
+		9B3F29802C0878A2000A4315 /* ClimbUPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimbUPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3F29842C0878A2000A4315 /* ClimbUPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbUPUITests.swift; sourceTree = "<group>"; };
+		9B3F29862C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbUPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BFF84472C1A6B730083BDE1 /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		9BFF84552C1AC0C00083BDE1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B3F29632C08789E000A4315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF84642C2B06F80083BDE1 /* MessageKit in Frameworks */,
+				9BFF844B2C1A6B970083BDE1 /* SnapKit in Frameworks */,
+				9BFF844E2C1A6BA40083BDE1 /* Then in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3F29732C0878A2000A4315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3F297D2C0878A2000A4315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B3F295D2C08789E000A4315 = {
+			isa = PBXGroup;
+			children = (
+				9B3F29682C08789E000A4315 /* ClimbUP */,
+				9B3F29792C0878A2000A4315 /* ClimbUPTests */,
+				9B3F29832C0878A2000A4315 /* ClimbUPUITests */,
+				9B3F29672C08789E000A4315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3F29672C08789E000A4315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3F29662C08789E000A4315 /* ClimbUP.app */,
+				9B3F29762C0878A2000A4315 /* ClimbUPTests.xctest */,
+				9B3F29802C0878A2000A4315 /* ClimbUPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3F29682C08789E000A4315 /* ClimbUP */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF84542C1AC0B20083BDE1 /* SplashView */,
+				9B3F29692C08789E000A4315 /* ClimbUPApp.swift */,
+				9B3F296B2C08789E000A4315 /* ContentView.swift */,
+				9B3F296D2C0878A2000A4315 /* Assets.xcassets */,
+				9B3F296F2C0878A2000A4315 /* Preview Content */,
+				9BFF84472C1A6B730083BDE1 /* UIKitView.swift */,
+			);
+			path = ClimbUP;
+			sourceTree = "<group>";
+		};
+		9B3F296F2C0878A2000A4315 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B3F29702C0878A2000A4315 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B3F29792C0878A2000A4315 /* ClimbUPTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B3F297A2C0878A2000A4315 /* ClimbUPTests.swift */,
+			);
+			path = ClimbUPTests;
+			sourceTree = "<group>";
+		};
+		9B3F29832C0878A2000A4315 /* ClimbUPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B3F29842C0878A2000A4315 /* ClimbUPUITests.swift */,
+				9B3F29862C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift */,
+			);
+			path = ClimbUPUITests;
+			sourceTree = "<group>";
+		};
+		9BFF84542C1AC0B20083BDE1 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF84552C1AC0C00083BDE1 /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B3F29652C08789E000A4315 /* ClimbUP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3F298A2C0878A2000A4315 /* Build configuration list for PBXNativeTarget "ClimbUP" */;
+			buildPhases = (
+				9B3F29622C08789E000A4315 /* Sources */,
+				9B3F29632C08789E000A4315 /* Frameworks */,
+				9B3F29642C08789E000A4315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimbUP;
+			packageProductDependencies = (
+				9BFF844A2C1A6B970083BDE1 /* SnapKit */,
+				9BFF844D2C1A6BA40083BDE1 /* Then */,
+				9BFF84632C2B06F80083BDE1 /* MessageKit */,
+			);
+			productName = ClimbUP;
+			productReference = 9B3F29662C08789E000A4315 /* ClimbUP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B3F29752C0878A2000A4315 /* ClimbUPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3F298D2C0878A2000A4315 /* Build configuration list for PBXNativeTarget "ClimbUPTests" */;
+			buildPhases = (
+				9B3F29722C0878A2000A4315 /* Sources */,
+				9B3F29732C0878A2000A4315 /* Frameworks */,
+				9B3F29742C0878A2000A4315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3F29782C0878A2000A4315 /* PBXTargetDependency */,
+			);
+			name = ClimbUPTests;
+			productName = ClimbUPTests;
+			productReference = 9B3F29762C0878A2000A4315 /* ClimbUPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B3F297F2C0878A2000A4315 /* ClimbUPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3F29902C0878A2000A4315 /* Build configuration list for PBXNativeTarget "ClimbUPUITests" */;
+			buildPhases = (
+				9B3F297C2C0878A2000A4315 /* Sources */,
+				9B3F297D2C0878A2000A4315 /* Frameworks */,
+				9B3F297E2C0878A2000A4315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3F29822C0878A2000A4315 /* PBXTargetDependency */,
+			);
+			name = ClimbUPUITests;
+			productName = ClimbUPUITests;
+			productReference = 9B3F29802C0878A2000A4315 /* ClimbUPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B3F295E2C08789E000A4315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					9B3F29652C08789E000A4315 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					9B3F29752C0878A2000A4315 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 9B3F29652C08789E000A4315;
+					};
+					9B3F297F2C0878A2000A4315 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 9B3F29652C08789E000A4315;
+					};
+				};
+			};
+			buildConfigurationList = 9B3F29612C08789E000A4315 /* Build configuration list for PBXProject "ClimbUP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B3F295D2C08789E000A4315;
+			packageReferences = (
+				9BFF84492C1A6B970083BDE1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				9BFF844C2C1A6BA40083BDE1 /* XCRemoteSwiftPackageReference "Then" */,
+				9BFF84622C2B06F80083BDE1 /* XCRemoteSwiftPackageReference "MessageKit" */,
+			);
+			productRefGroup = 9B3F29672C08789E000A4315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3F29652C08789E000A4315 /* ClimbUP */,
+				9B3F29752C0878A2000A4315 /* ClimbUPTests */,
+				9B3F297F2C0878A2000A4315 /* ClimbUPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B3F29642C08789E000A4315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3F29712C0878A2000A4315 /* Preview Assets.xcassets in Resources */,
+				9B3F296E2C0878A2000A4315 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3F29742C0878A2000A4315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3F297E2C0878A2000A4315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B3F29622C08789E000A4315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF84482C1A6B730083BDE1 /* UIKitView.swift in Sources */,
+				9BFF84562C1AC0C00083BDE1 /* SplashView.swift in Sources */,
+				9B3F296C2C08789E000A4315 /* ContentView.swift in Sources */,
+				9B3F296A2C08789E000A4315 /* ClimbUPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3F29722C0878A2000A4315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3F297B2C0878A2000A4315 /* ClimbUPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3F297C2C0878A2000A4315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3F29852C0878A2000A4315 /* ClimbUPUITests.swift in Sources */,
+				9B3F29872C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B3F29782C0878A2000A4315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3F29652C08789E000A4315 /* ClimbUP */;
+			targetProxy = 9B3F29772C0878A2000A4315 /* PBXContainerItemProxy */;
+		};
+		9B3F29822C0878A2000A4315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3F29652C08789E000A4315 /* ClimbUP */;
+			targetProxy = 9B3F29812C0878A2000A4315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B3F29882C0878A2000A4315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B3F29892C0878A2000A4315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B3F298B2C0878A2000A4315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClimbUP/Preview Content\"";
+				DEVELOPMENT_TEAM = DT6CHGQB77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MelBIP.ClimbUP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B3F298C2C0878A2000A4315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClimbUP/Preview Content\"";
+				DEVELOPMENT_TEAM = DT6CHGQB77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MelBIP.ClimbUP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B3F298E2C0878A2000A4315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DT6CHGQB77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MelBIP.ClimbUPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimbUP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClimbUP";
+			};
+			name = Debug;
+		};
+		9B3F298F2C0878A2000A4315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DT6CHGQB77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MelBIP.ClimbUPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimbUP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClimbUP";
+			};
+			name = Release;
+		};
+		9B3F29912C0878A2000A4315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DT6CHGQB77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MelBIP.ClimbUPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClimbUP;
+			};
+			name = Debug;
+		};
+		9B3F29922C0878A2000A4315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DT6CHGQB77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MelBIP.ClimbUPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClimbUP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B3F29612C08789E000A4315 /* Build configuration list for PBXProject "ClimbUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3F29882C0878A2000A4315 /* Debug */,
+				9B3F29892C0878A2000A4315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3F298A2C0878A2000A4315 /* Build configuration list for PBXNativeTarget "ClimbUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3F298B2C0878A2000A4315 /* Debug */,
+				9B3F298C2C0878A2000A4315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3F298D2C0878A2000A4315 /* Build configuration list for PBXNativeTarget "ClimbUPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3F298E2C0878A2000A4315 /* Debug */,
+				9B3F298F2C0878A2000A4315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3F29902C0878A2000A4315 /* Build configuration list for PBXNativeTarget "ClimbUPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3F29912C0878A2000A4315 /* Debug */,
+				9B3F29922C0878A2000A4315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9BFF84492C1A6B970083BDE1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		9BFF844C2C1A6BA40083BDE1 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		9BFF84622C2B06F80083BDE1 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BFF844A2C1A6B970083BDE1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BFF84492C1A6B970083BDE1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		9BFF844D2C1A6BA40083BDE1 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BFF844C2C1A6BA40083BDE1 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		9BFF84632C2B06F80083BDE1 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BFF84622C2B06F80083BDE1 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9B3F295E2C08789E000A4315 /* Project object */;
+}
