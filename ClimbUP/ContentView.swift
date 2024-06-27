@@ -6,7 +6,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             if showMainView {
-//                MainView()
+                MainView()
             } else {
                 SplashView()
                     .onAppear {
