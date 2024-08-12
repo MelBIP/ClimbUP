@@ -3,7 +3,9 @@ import SwiftUI
 struct SplashView: View {
     var body: some View {
         ZStack {
-            Image(uiImage: UIImage.climbUPLogo)
+            Color(UIColor.mainBlue).ignoresSafeArea()
+            
+            Image(uiImage: UIImage.whiteLogo)
         }
     }
 }
