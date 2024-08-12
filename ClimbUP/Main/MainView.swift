@@ -16,8 +16,9 @@ struct MainView: View {
                 }, label: {
                     Text("로그인")
                         .foregroundStyle(.white)
+                        .font(.psb17)
                         .frame(width: 353, height: 53)
-                        .background(Color(UIColor(named: "MainBlue") ?? .white))
+                        .background(Color.mainBlue)
                         .cornerRadius(8)
                 })
                 .padding(.bottom, 8)
@@ -27,7 +28,7 @@ struct MainView: View {
                 }, label: {
                     Text("회원가입")
                         .foregroundStyle(.gray)
-//                        .font()
+                        .font(.psb14)
                 })
                 .padding(.bottom, 32)
             }
