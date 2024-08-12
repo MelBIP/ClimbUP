@@ -27,6 +27,7 @@ struct MainView: View {
                 }, label: {
                     Text("회원가입")
                         .foregroundStyle(.gray)
+//                        .font()
                 })
                 .padding(.bottom, 32)
             }
