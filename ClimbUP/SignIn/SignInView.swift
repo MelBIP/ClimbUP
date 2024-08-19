@@ -6,24 +6,50 @@ struct SignInView: View {
     
     var body: some View {
         VStack {
+            Spacer()
+            
             Text("로그인")
                 .font(.pb40)
+                .padding(.bottom, 52)
             
             TextField("아이디를 입력해주세요", text: $id)
                 .padding()
                 .background(Color.lightBlue)
                 .cornerRadius(8)
                 .padding(.horizontal, 20)
+                .padding(.bottom, 28)
             
             TextField("비밀번호를 입력해주세요", text: $password)
                 .padding()
                 .background(Color.lightBlue)
                 .cornerRadius(8)
                 .padding(.horizontal, 20)
+                .padding(.bottom, 20)
             
-            HStack {
-                DividerWithLabel(label: "간편 로그인", horizontalPadding: 20, color: .darkGray)
+            DividerWithLabel(label: "간편 로그인", horizontalPadding: 20, color: .darkGray)
+                .padding(.bottom, 22)
+            
+            HStack(spacing: 24) {
+                Image(.google)
+                Image(.kaKaoTalk)
+                Image(.apple)
             }
+            
+            Spacer()
+            
+            Button(action: {
+                print("테스트")
+            }, label: {
+                Text("로그인")
+                    .foregroundStyle(.white)
+                    .font(.psb17)
+            })
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.mainBlue)
+            .cornerRadius(8)
+            .padding(.horizontal, 20)
+            .padding(.bottom, 28)
         }
     }
 }
