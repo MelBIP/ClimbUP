@@ -17,7 +17,7 @@ struct SignInView: View {
                 .background(Color.lightBlue)
                 .cornerRadius(8)
                 .padding(.horizontal, 20)
-                .padding(.bottom, 28)
+                .padding(.bottom, 20)
             
             TextField("비밀번호를 입력해주세요", text: $password)
                 .padding()
@@ -27,7 +27,6 @@ struct SignInView: View {
                 .padding(.bottom, 20)
             
             DividerWithLabel(label: "간편 로그인", horizontalPadding: 20, color: .darkGray)
-                .padding(.bottom, 22)
             
             HStack(spacing: 24) {
                 Image(.google)
@@ -38,7 +37,7 @@ struct SignInView: View {
             Spacer()
             
             Button(action: {
-                print("테스트")
+                print("로그인 버튼")
             }, label: {
                 Text("로그인")
                     .foregroundStyle(.white)
