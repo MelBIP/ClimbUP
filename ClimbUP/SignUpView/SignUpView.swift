@@ -3,6 +3,9 @@ import SwiftUI
 struct SignUpView: View {
     @State var id: String = ""
     @State var password: String = ""
+    @State var checkPassword: String = ""
+    @State private var showPassword = false
+    @State private var showCheckPassword = false
     
     var body: some View {
         VStack {
@@ -48,19 +51,67 @@ struct SignUpView: View {
                 Spacer()
             }
             
-            TextField("비밀번호를 입력해주세요", text: $password)
-                .padding()
-                .background(Color.lightBlue)
-                .cornerRadius(8)
-                .padding(.horizontal, 20)
-                .padding(.bottom, 20)
+            ZStack {
+                if showPassword {
+                    TextField("비밀번호를 입력해주세요", text: $password)
+                        .padding()
+                        .background(Color.lightBlue)
+                        .cornerRadius(8)
+                        .padding(.horizontal, 20)
+                        .padding(.bottom, 20)
+                } else {
+                    SecureField("비밀번호를 입력해주세요", text: $password)
+                        .padding()
+                        .background(Color.lightBlue)
+                        .cornerRadius(8)
+                        .padding(.horizontal, 20)
+                        .padding(.bottom, 20)
+                }
+                
+                HStack {
+                    Spacer()
+                    
+                    Button(action: {
+                        self.showPassword.toggle()
+                    }, label: {
+                        Image(systemName: showPassword ? "eye" : "eye.slash")
+                            .foregroundColor(Color.gray)
+                    })
+                    .padding(.bottom, 20)
+                    .padding(.trailing, 32)
+                }
+            }
             
-            TextField("다시 한 번 입력해주세요", text: $password)
-                .padding()
-                .background(Color.lightBlue)
-                .cornerRadius(8)
-                .padding(.horizontal, 20)
-                .padding(.bottom, 20)
+            ZStack {
+                if showCheckPassword {
+                    TextField("다시 한 번 입력해주세요", text: $checkPassword)
+                        .padding()
+                        .background(Color.lightBlue)
+                        .cornerRadius(8)
+                        .padding(.horizontal, 20)
+                        .padding(.bottom, 20)
+                } else {
+                    SecureField("다시 한 번 입력해주세요", text: $checkPassword)
+                        .padding()
+                        .background(Color.lightBlue)
+                        .cornerRadius(8)
+                        .padding(.horizontal, 20)
+                        .padding(.bottom, 20)
+                }
+                
+                HStack {
+                    Spacer()
+                    
+                    Button(action: {
+                        self.showCheckPassword.toggle()
+                    }, label: {
+                        Image(systemName: showCheckPassword ? "eye" : "eye.slash")
+                            .foregroundColor(Color.gray)
+                    })
+                    .padding(.bottom, 20)
+                    .padding(.trailing, 32)
+                }
+            }
             
             DividerWithLabel(label: "간편 회원가입", horizontalPadding: 20, color: .darkGray)
             
