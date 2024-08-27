@@ -54,9 +54,23 @@ struct SignInView: View {
             DividerWithLabel(label: "간편 로그인", horizontalPadding: 20, color: .darkGray)
             
             HStack(spacing: 24) {
-                Image(.google)
-                Image(.kaKaoTalk)
-                Image(.apple)
+                Button(action: {
+                    // 구글 로그인
+                }, label: {
+                    Image(.google)
+                })
+                
+                Button(action: {
+                    // 카카오 로그인
+                }, label: {
+                    Image(.kaKaoTalk)
+                })
+                
+                Button(action: {
+                    // 애플 로그인
+                }, label: {
+                    Image(.apple)
+                })
             }
             
             Spacer()

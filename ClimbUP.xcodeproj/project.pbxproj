@@ -20,6 +20,8 @@
 		9B14F5D22C69DE1900A8A71B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14F5D12C69DE1900A8A71B /* SignInView.swift */; };
 		9B14F5D62C72EAE700A8A71B /* DividerWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14F5D52C72EAE700A8A71B /* DividerWithLabel.swift */; };
 		9B14F5DA2C733C0B00A8A71B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14F5D92C733C0B00A8A71B /* SignUpView.swift */; };
+		9B14F5DD2C76029B00A8A71B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 9B14F5DC2C76029B00A8A71B /* GoogleSignIn */; };
+		9B14F5DF2C76029B00A8A71B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9B14F5DE2C76029B00A8A71B /* GoogleSignInSwift */; };
 		9B3F296A2C08789E000A4315 /* ClimbUPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F29692C08789E000A4315 /* ClimbUPApp.swift */; };
 		9B3F296C2C08789E000A4315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F296B2C08789E000A4315 /* ContentView.swift */; };
 		9B3F296E2C0878A2000A4315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F296D2C0878A2000A4315 /* Assets.xcassets */; };
@@ -87,7 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B14F5DF2C76029B00A8A71B /* GoogleSignInSwift in Frameworks */,
 				9BFF84642C2B06F80083BDE1 /* MessageKit in Frameworks */,
+				9B14F5DD2C76029B00A8A71B /* GoogleSignIn in Frameworks */,
 				9BFF844B2C1A6B970083BDE1 /* SnapKit in Frameworks */,
 				9BFF844E2C1A6BA40083BDE1 /* Then in Frameworks */,
 			);
@@ -259,6 +263,8 @@
 				9BFF844A2C1A6B970083BDE1 /* SnapKit */,
 				9BFF844D2C1A6BA40083BDE1 /* Then */,
 				9BFF84632C2B06F80083BDE1 /* MessageKit */,
+				9B14F5DC2C76029B00A8A71B /* GoogleSignIn */,
+				9B14F5DE2C76029B00A8A71B /* GoogleSignInSwift */,
 			);
 			productName = ClimbUP;
 			productReference = 9B3F29662C08789E000A4315 /* ClimbUP.app */;
@@ -336,6 +342,7 @@
 				9BFF84492C1A6B970083BDE1 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				9BFF844C2C1A6BA40083BDE1 /* XCRemoteSwiftPackageReference "Then" */,
 				9BFF84622C2B06F80083BDE1 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				9B14F5DB2C76029B00A8A71B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 9B3F29672C08789E000A4315 /* Products */;
 			projectDirPath = "";
@@ -730,6 +737,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9B14F5DB2C76029B00A8A71B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 		9BFF84492C1A6B970083BDE1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -757,6 +772,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9B14F5DC2C76029B00A8A71B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B14F5DB2C76029B00A8A71B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		9B14F5DE2C76029B00A8A71B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B14F5DB2C76029B00A8A71B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
 		9BFF844A2C1A6B970083BDE1 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9BFF84492C1A6B970083BDE1 /* XCRemoteSwiftPackageReference "SnapKit" */;
