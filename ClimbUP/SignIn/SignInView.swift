@@ -10,7 +10,7 @@ struct SignInView: View {
             Spacer()
             
             Text("로그인")
-                .font(.pb40)
+                .font(.ab40)
                 .padding(.bottom, 52)
             
             TextField("아이디를 입력해주세요", text: $id)
@@ -80,7 +80,7 @@ struct SignInView: View {
             }, label: {
                 Text("로그인")
                     .foregroundStyle(.white)
-                    .font(.psb17)
+                    .font(.asb17)
             })
             .padding()
             .frame(maxWidth: .infinity)

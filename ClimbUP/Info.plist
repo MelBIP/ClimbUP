@@ -14,15 +14,15 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Pretendard-Black</string>
-		<string>Pretendard-Bold</string>
-		<string>Pretendard-ExtraBold</string>
-		<string>Pretendard-ExtraLight</string>
-		<string>Pretendard-Light</string>
-		<string>Pretendard-Medium</string>
-		<string>Pretendard-Regular</string>
-		<string>Pretendard-SemiBold</string>
-		<string>Pretendard-Thin</string>
+		<string>AppleSDGothicNeoM.ttf</string>
+		<string>AppleSDGothicNeoH.ttf</string>
+		<string>AppleSDGothicNeoL.ttf</string>
+		<string>AppleSDGothicNeoEB.ttf</string>
+		<string>AppleSDGothicNeoT.ttf</string>
+		<string>AppleSDGothicNeoUL.ttf</string>
+		<string>AppleSDGothicNeoSB.ttf</string>
+		<string>AppleSDGothicNeoB.ttf</string>
+		<string>AppleSDGothicNeoR.ttf</string>
 	</array>
 </dict>
 </plist>

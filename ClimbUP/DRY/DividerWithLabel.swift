@@ -15,7 +15,7 @@ struct DividerWithLabel: View {
         HStack {
             line
             Text(label).foregroundColor(.black)
-                .font(.pr14)
+                .font(.ar14)
             line
         }
     }

@@ -21,7 +21,7 @@ struct MainView: View {
                 }, label: {
                     Text("로그인")
                         .foregroundStyle(.white)
-                        .font(.psb17)
+                        .font(.asb17)
                 })
                 .fullScreenCover(isPresented: $isSignInViewPresented) {
                     SignInView()
@@ -40,7 +40,7 @@ struct MainView: View {
                 }, label: {
                     Text("회원가입")
                         .foregroundStyle(.gray)
-                        .font(.psb14)
+                        .font(.asb14)
                 })
                 .padding(.bottom, 32)
                 .fullScreenCover(isPresented: $isSignUpViewPresented) {

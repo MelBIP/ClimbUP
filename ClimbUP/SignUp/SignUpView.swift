@@ -12,7 +12,7 @@ struct SignUpView: View {
             Spacer()
             
             Text("회원가입")
-                .font(.pb40)
+                .font(.ab40)
                 .padding(.bottom, 32)
             
             HStack {
@@ -29,7 +29,7 @@ struct SignUpView: View {
                 }, label: {
                     Text("중복 확인")
                         .foregroundStyle(Color.textBlue)
-                        .font(.pr16)
+                        .font(.ar16)
                 })
                 .padding()
                 .background(Color.mainBlue)
@@ -40,7 +40,7 @@ struct SignUpView: View {
             HStack {
                 Text("사용 가능한 아이디입니다.")
                     .foregroundStyle(Color.warningGreen)
-                    .font(.pr12)
+                    .font(.ar12)
                     .padding(.leading, 20)
                 
 //                Text("사용 불가능한 아이디입니다. 다시 입력해주세요.")
@@ -128,7 +128,7 @@ struct SignUpView: View {
             }, label: {
                 Text("회원가입")
                     .foregroundStyle(.white)
-                    .font(.psb17)
+                    .font(.asb17)
             })
             .padding()
             .frame(maxWidth: .infinity)

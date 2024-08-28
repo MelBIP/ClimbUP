@@ -2,24 +2,24 @@ import SwiftUI
 
 extension Font {
     // Bold
-    static let pb14: Font = .custom("Pretendard-Bold", size: 14)
-    static let pb16: Font = .custom("Pretendard-Bold", size: 16)
-    static let pb18: Font = .custom("Pretendard-Bold", size: 18)
-    static let pb20: Font = .custom("Pretendard-Bold", size: 20)
-    static let pb24: Font = .custom("Pretendard-Bold", size: 24)
-    static let pb40: Font = .custom("Pretendard-Bold", size: 40)
+    static let ab14: Font = .custom("AppleSDGothicNeoB", size: 14)
+    static let ab16: Font = .custom("AppleSDGothicNeoB", size: 16)
+    static let ab18: Font = .custom("AppleSDGothicNeoB", size: 18)
+    static let ab20: Font = .custom("AppleSDGothicNeoB", size: 20)
+    static let ab24: Font = .custom("AppleSDGothicNeoB", size: 24)
+    static let ab40: Font = .custom("AppleSDGothicNeoB", size: 40)
 
     // SemiBold
-    static let psb11: Font = .custom("Pretendard-SemiBold", size: 11)
-    static let psb12: Font = .custom("Pretendard-SemiBold", size: 12)
-    static let psb14: Font = .custom("Pretendard-SemiBold", size: 14)
-    static let psb17: Font = .custom("Pretendard-SemiBold", size: 17)
+    static let asb11: Font = .custom("AppleSDGothicNeoSB", size: 11)
+    static let asb12: Font = .custom("AppleSDGothicNeoSB", size: 12)
+    static let asb14: Font = .custom("AppleSDGothicNeoSB", size: 14)
+    static let asb17: Font = .custom("AppleSDGothicNeoSB", size: 17)
     
     // Medium
-    static let pm16: Font = .custom("Pretendard-Medium", size: 16)
+    static let am16: Font = .custom("AppleSDGothicNeoM", size: 16)
 
     // Regular
-    static let pr12: Font = .custom("Pretendard-Regular", size: 12)
-    static let pr14: Font = .custom("Pretendard-Regular", size: 14)
-    static let pr16: Font = .custom("Pretendard-Regular", size: 16)
+    static let ar12: Font = .custom("AppleSDGothicNeoR", size: 12)
+    static let ar14: Font = .custom("AppleSDGothicNeoR", size: 14)
+    static let ar16: Font = .custom("AppleSDGothicNeoR", size: 16)
 }
