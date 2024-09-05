@@ -14,15 +14,13 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>AppleSDGothicNeoM.ttf</string>
-		<string>AppleSDGothicNeoH.ttf</string>
-		<string>AppleSDGothicNeoL.ttf</string>
-		<string>AppleSDGothicNeoEB.ttf</string>
-		<string>AppleSDGothicNeoT.ttf</string>
-		<string>AppleSDGothicNeoUL.ttf</string>
-		<string>AppleSDGothicNeoSB.ttf</string>
-		<string>AppleSDGothicNeoB.ttf</string>
-		<string>AppleSDGothicNeoR.ttf</string>
+		<string>AppleSDGothicNeo-Medium.ttf</string>
+		<string>AppleSDGothicNeo-Light.ttf</string>
+		<string>AppleSDGothicNeo-Thin.ttf</string>
+		<string>AppleSDGothicNeo-UltraLight.ttf</string>
+		<string>AppleSDGothicNeo-SemiBold.ttf</string>
+		<string>AppleSDGothicNeo-Bold.ttf</string>
+		<string>AppleSDGothicNeo-Regular.ttf</string>
 	</array>
 </dict>
 </plist>
