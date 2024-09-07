@@ -59,6 +59,7 @@ struct HomeView: View {
                         Text("24.06.15")
                             .font(.ab14)
                             .foregroundColor(.darkGray)
+                            .padding(.top, 2)
                     }
                     .padding(.leading, 20)
                     
@@ -71,6 +72,7 @@ struct HomeView: View {
                         Text("V2")
                             .font(.ab16)
                             .foregroundColor(.v2Level)
+                            .padding(.top, 2)
                             // VB ~ V10 조건 맞춰서 볼 수 색 변경
                     }
                     
@@ -83,6 +85,7 @@ struct HomeView: View {
                         Text("5시간 38분")
                             .font(.ab14)
                             .foregroundColor(.darkGray)
+                            .padding(.top, 2)
                     }
                     .padding(.trailing, 20)
                 }
