@@ -1,20 +1,9 @@
 import SwiftUI
 
-struct Post: Identifiable {
-    let id = UUID()
-    let title: String
-    let content: String
-}
-
 struct HomeView: View {
+    let postMakers = PostMaker.all()
+    
     var body: some View {
-        // 샘플 데이터 배열
-        let posts = [
-            Post(title: "첫 번째 게시글", content: "이것은 첫 번째 게시글의 내용입니다."),
-            Post(title: "두 번째 게시글", content: "이것은 두 번째 게시글의 내용입니다."),
-            Post(title: "세 번째 게시글", content: "이것은 세 번째 게시글의 내용입니다.")
-        ]
-        
         ZStack(alignment: .top) {
             Image(uiImage: UIImage.homeBackground)
                 .edgesIgnoringSafeArea(.top)
@@ -130,21 +119,11 @@ struct HomeView: View {
                         .padding(.bottom, 4)
                     }
                     
-                    List(posts) { post in
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(post.title)
-                                .font(.asb12)
-                                .padding(.bottom, 2)
-
-                            Text(post.content)
-                                .font(.asb11)
-                                .foregroundColor(.darkGray)
-
-                            Divider()
-                        }
-                        .padding(.vertical, 8)
+                    List(self.postMakers) { postMaker in
+                        PostMakerCell(postMaker: postMaker)
                     }
                     .padding(.bottom, 12)
+                    .background(Color.red)
                     
                     HStack {
                         Text("인기글")
@@ -159,19 +138,8 @@ struct HomeView: View {
                     }
                     .padding(.bottom, 4)
                     
-                    List(posts) { post in
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(post.title)
-                                .font(.asb12)
-                                .padding(.bottom, 2)
-
-                            Text(post.content)
-                                .font(.asb11)
-                                .foregroundColor(.darkGray)
-
-                            Divider()
-                        }
-                        .padding(.vertical, 8)
+                    List(self.postMakers) { postMaker in
+                        PostMakerCell(postMaker: postMaker)
                     }
                 }
                 .padding(.leading, 20)

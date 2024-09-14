@@ -21,6 +21,7 @@
 		9B14F5F42C7F036D00A8A71B /* AppleSDGothicNeoSB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B14F5F02C7F036D00A8A71B /* AppleSDGothicNeoSB.ttf */; };
 		9B14F5F52C7F036D00A8A71B /* AppleSDGothicNeoR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B14F5F12C7F036D00A8A71B /* AppleSDGothicNeoR.ttf */; };
 		9B14F5F62C7F036D00A8A71B /* AppleSDGothicNeoT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B14F5F22C7F036D00A8A71B /* AppleSDGothicNeoT.ttf */; };
+		9B14F5F82C91592D00A8A71B /* PostMakerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14F5F72C91592D00A8A71B /* PostMakerCell.swift */; };
 		9B3F296A2C08789E000A4315 /* ClimbUPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F29692C08789E000A4315 /* ClimbUPApp.swift */; };
 		9B3F296C2C08789E000A4315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F296B2C08789E000A4315 /* ContentView.swift */; };
 		9B3F296E2C0878A2000A4315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F296D2C0878A2000A4315 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		9B3F297B2C0878A2000A4315 /* ClimbUPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F297A2C0878A2000A4315 /* ClimbUPTests.swift */; };
 		9B3F29852C0878A2000A4315 /* ClimbUPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F29842C0878A2000A4315 /* ClimbUPUITests.swift */; };
 		9B3F29872C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F29862C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift */; };
+		9BE24B9B2C92E4FC0066FB9A /* PostMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE24B9A2C92E4FC0066FB9A /* PostMaker.swift */; };
 		9BEF21BE2C2D63E1006FED01 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF21BD2C2D63E1006FED01 /* MainView.swift */; };
 		9BFF84482C1A6B730083BDE1 /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF84472C1A6B730083BDE1 /* UIKitView.swift */; };
 		9BFF844B2C1A6B970083BDE1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9BFF844A2C1A6B970083BDE1 /* SnapKit */; };
@@ -54,7 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B14F5CC2C69B8DD00A8A71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9B14F5CC2C69B8DD00A8A71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B14F5CE2C69D15300A8A71B /* Extension + Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Font.swift"; sourceTree = "<group>"; };
 		9B14F5D12C69DE1900A8A71B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		9B14F5D52C72EAE700A8A71B /* DividerWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerWithLabel.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		9B14F5F02C7F036D00A8A71B /* AppleSDGothicNeoSB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoSB.ttf; sourceTree = "<group>"; };
 		9B14F5F12C7F036D00A8A71B /* AppleSDGothicNeoR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoR.ttf; sourceTree = "<group>"; };
 		9B14F5F22C7F036D00A8A71B /* AppleSDGothicNeoT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeoT.ttf; sourceTree = "<group>"; };
+		9B14F5F72C91592D00A8A71B /* PostMakerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMakerCell.swift; sourceTree = "<group>"; };
 		9B3F29662C08789E000A4315 /* ClimbUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3F29692C08789E000A4315 /* ClimbUPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbUPApp.swift; sourceTree = "<group>"; };
 		9B3F296B2C08789E000A4315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +80,7 @@
 		9B3F29802C0878A2000A4315 /* ClimbUPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimbUPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3F29842C0878A2000A4315 /* ClimbUPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbUPUITests.swift; sourceTree = "<group>"; };
 		9B3F29862C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbUPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BE24B9A2C92E4FC0066FB9A /* PostMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMaker.swift; sourceTree = "<group>"; };
 		9BEF21BD2C2D63E1006FED01 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9BFF84472C1A6B730083BDE1 /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
 		9BFF84552C1AC0C00083BDE1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -161,7 +165,8 @@
 		9B14F5E22C7E9EBB00A8A71B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				9B14F5E32C7E9ED900A8A71B /* HomeView.swift */,
+				9BE24B992C92E4E60066FB9A /* ViewModel */,
+				9BE24B982C92E4E00066FB9A /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -189,20 +194,13 @@
 		9B3F29682C08789E000A4315 /* ClimbUP */ = {
 			isa = PBXGroup;
 			children = (
-				9B14F5E22C7E9EBB00A8A71B /* Home */,
-				9B14F5D82C733BFF00A8A71B /* SignUp */,
-				9B14F5D02C69DDF600A8A71B /* SignIn */,
-				9BEF21BC2C2D63B4006FED01 /* Main */,
-				9BFF84542C1AC0B20083BDE1 /* Splash */,
-				9B14F5D72C72F15600A8A71B /* DRY */,
-				9B14F5CD2C69D13D00A8A71B /* Extension */,
-				9B14F5CC2C69B8DD00A8A71B /* Info.plist */,
-				9B14F5B92C69B88F00A8A71B /* Font */,
 				9B3F29692C08789E000A4315 /* ClimbUPApp.swift */,
-				9B3F296B2C08789E000A4315 /* ContentView.swift */,
-				9B3F296D2C0878A2000A4315 /* Assets.xcassets */,
-				9B3F296F2C0878A2000A4315 /* Preview Content */,
 				9BFF84472C1A6B730083BDE1 /* UIKitView.swift */,
+				9BE24B972C92DD250066FB9A /* Resources */,
+				9BE24B962C92DD000066FB9A /* Data */,
+				9BE24B952C92DCF90066FB9A /* Domain */,
+				9BE24B942C92DCF40066FB9A /* Presentation */,
+				9BE24B932C92DCED0066FB9A /* Application */,
 			);
 			path = ClimbUP;
 			sourceTree = "<group>";
@@ -230,6 +228,70 @@
 				9B3F29862C0878A2000A4315 /* ClimbUPUITestsLaunchTests.swift */,
 			);
 			path = ClimbUPUITests;
+			sourceTree = "<group>";
+		};
+		9BE24B932C92DCED0066FB9A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9B3F296B2C08789E000A4315 /* ContentView.swift */,
+				9B3F296F2C0878A2000A4315 /* Preview Content */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9BE24B942C92DCF40066FB9A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9B14F5E22C7E9EBB00A8A71B /* Home */,
+				9B14F5D82C733BFF00A8A71B /* SignUp */,
+				9B14F5D02C69DDF600A8A71B /* SignIn */,
+				9BEF21BC2C2D63B4006FED01 /* Main */,
+				9BFF84542C1AC0B20083BDE1 /* Splash */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9BE24B952C92DCF90066FB9A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		9BE24B962C92DD000066FB9A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9BE24B972C92DD250066FB9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B14F5B92C69B88F00A8A71B /* Font */,
+				9B14F5CC2C69B8DD00A8A71B /* Info.plist */,
+				9B14F5CD2C69D13D00A8A71B /* Extension */,
+				9B14F5D72C72F15600A8A71B /* DRY */,
+				9B3F296D2C0878A2000A4315 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9BE24B982C92E4E00066FB9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B14F5F72C91592D00A8A71B /* PostMakerCell.swift */,
+				9B14F5E32C7E9ED900A8A71B /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BE24B992C92E4E60066FB9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE24B9A2C92E4FC0066FB9A /* PostMaker.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		9BEF21BC2C2D63B4006FED01 /* Main */ = {
@@ -401,11 +463,13 @@
 				9BFF84482C1A6B730083BDE1 /* UIKitView.swift in Sources */,
 				9B14F5D22C69DE1900A8A71B /* SignInView.swift in Sources */,
 				9BFF84562C1AC0C00083BDE1 /* SplashView.swift in Sources */,
+				9BE24B9B2C92E4FC0066FB9A /* PostMaker.swift in Sources */,
 				9B14F5E42C7E9ED900A8A71B /* HomeView.swift in Sources */,
 				9B3F296C2C08789E000A4315 /* ContentView.swift in Sources */,
 				9B14F5D62C72EAE700A8A71B /* DividerWithLabel.swift in Sources */,
 				9BEF21BE2C2D63E1006FED01 /* MainView.swift in Sources */,
 				9B14F5CF2C69D15300A8A71B /* Extension + Font.swift in Sources */,
+				9B14F5F82C91592D00A8A71B /* PostMakerCell.swift in Sources */,
 				9B14F5DA2C733C0B00A8A71B /* SignUpView.swift in Sources */,
 				9B3F296A2C08789E000A4315 /* ClimbUPApp.swift in Sources */,
 			);
