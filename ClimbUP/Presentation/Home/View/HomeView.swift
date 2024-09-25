@@ -80,34 +80,17 @@ struct HomeView: View {
                 }
                 .padding(.bottom, 36)
                 
-                ScrollView {
-                    VStack(alignment: .leading) {
-                        Text("기록하러 가기")
-                            .font(.ab24)
-                            .padding(.bottom, 12)
-                        
-                        Text("실시간 기록")
-                            .font(.am16)
-                            .padding(.bottom, 12)
-                        
-                        Text("지난 운동 기록")
-                            .font(.am16)
-                            .padding(.bottom, 12)
-                        
-                        Text("클라이밍 외 운동 기록")
-                            .font(.am16)
-                            .padding(.bottom, 36)
-                    }
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                VStack(alignment: .leading) {
+                    Text("게시판")
+                        .font(.ab18)
+                        .padding(.bottom, 4)
+                        .padding(.leading, 20)
                     
-                    VStack(alignment: .leading) {
-                        Text("게시판")
-                            .font(.ab18)
-                            .padding(.bottom, 4)
-                        
+                    ScrollView {
                         HStack {
                             Text("최신글")
                                 .font(.asb12)
+                                .padding(.bottom, 12)
                             
                             Spacer()
                             
@@ -115,36 +98,45 @@ struct HomeView: View {
                                 .font(.asb11)
                                 .foregroundStyle(Color.darkGray)
                                 .padding(.trailing, 20)
+                                .padding(.bottom, 12)
                         }
-                        .padding(.bottom, 4)
-                    }
-                    
-                    List(self.postMakers) { postMaker in
-                        PostMakerCell(postMaker: postMaker)
-                    }
-                    .padding(.bottom, 12)
-                    .background(Color.red)
-                    
-                    HStack {
-                        Text("인기글")
-                            .font(.asb12)
                         
-                        Spacer()
+                        ForEach(self.postMakers) { postMaker in
+                            PostMakerCell(postMaker: postMaker)
+                                .listRowInsets(EdgeInsets())
+                        }
+                        .listStyle(PlainListStyle())
+                        .padding(.trailing, 20)
+                        .simultaneousGesture(DragGesture(minimumDistance: 0), including: .all)
                         
-                        Text("더보기")
-                            .font(.asb11)
-                            .foregroundStyle(Color.darkGray)
-                            .padding(.trailing, 20)
+                        HStack {
+                            Text("인기글")
+                                .font(.asb12)
+                                .padding(.bottom, 12)
+                                .padding(.top, 8)
+                            
+                            Spacer()
+                            
+                            Text("더보기")
+                                .font(.asb11)
+                                .foregroundStyle(Color.darkGray)
+                                .padding(.trailing, 20)
+                                .padding(.bottom, 12)
+                        }
+                        
+                        ForEach(self.postMakers) { postMaker in
+                            PostMakerCell(postMaker: postMaker)
+                                .listRowInsets(EdgeInsets())
+                        }
+                        .listStyle(PlainListStyle())
+                        .padding(.trailing, 20)
+                        .simultaneousGesture(DragGesture(minimumDistance: 0), including: .all)
+                        
                     }
-                    .padding(.bottom, 4)
+                    .padding(.leading, 20)
                     
-                    List(self.postMakers) { postMaker in
-                        PostMakerCell(postMaker: postMaker)
-                    }
+                    Spacer()
                 }
-                .padding(.leading, 20)
-                
-                Spacer()
             }
         }
     }
