@@ -3,10 +3,12 @@ import SwiftUI
 struct HomeView: View {
     let postMakers = PostMaker.all()
     
+    @State var isSearchViewPresented = false
+    
     var body: some View {
         ZStack(alignment: .top) {
             Image(uiImage: UIImage.homeBackground)
-                .edgesIgnoringSafeArea(.top)
+                .edgesIgnoringSafeArea(.all)
             
             VStack(alignment: .leading) {
                 HStack {
@@ -16,10 +18,13 @@ struct HomeView: View {
                     Spacer()
                     
                     Button(action: {
-                        // SearchView로 이동
+                        self.isSearchViewPresented.toggle()
                     }, label: {
                         Image(uiImage: UIImage(systemName: "magnifyingglass")!)
                     })
+                    .fullScreenCover(isPresented: $isSearchViewPresented) {
+                        SearchView()
+                    }
                     
                     Button(action: {
                         

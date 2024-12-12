@@ -2,6 +2,7 @@ import SwiftUI
 
 extension Font {
     // Bold
+    static let ab12: Font = .custom("AppleSDGothicNeo-Bold", size: 12)
     static let ab14: Font = .custom("AppleSDGothicNeo-Bold", size: 14)
     static let ab16: Font = .custom("AppleSDGothicNeo-Bold", size: 16)
     static let ab18: Font = .custom("AppleSDGothicNeo-Bold", size: 18)
