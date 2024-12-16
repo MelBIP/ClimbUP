@@ -18,13 +18,22 @@ struct SearchView: View {
                     .padding(.leading, 20)
                 
                 List {
-                    ForEach(array.filter{$0.hasPrefix(searchText) || searchText == ""}, id:\.self) {
-                        searchText in Text(searchText)
+                    let filteredArray = array.filter { $0.hasPrefix(searchText) || searchText.isEmpty }
+                    
+                    if filteredArray.isEmpty {
+                        Text("검색 결과가 없습니다.")
+                            .foregroundColor(.darkGray)
+                            .font(.ab16)
+                            .listRowSeparator(.hidden)
+                    } else {
+                        ForEach(filteredArray, id: \.self) { item in
+                            Text(item)
+                        }
                     }
                 }
+
                 .listStyle(PlainListStyle())
                 .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 20))
-//                .background(.red)
                 .font(.ab16)
                 .onTapGesture {
                     hideKeyboard()
